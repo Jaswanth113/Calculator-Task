@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://t3.ftcdn.net/jpg/02/74/54/32/360_F_274543215_fanvgATUGui9FaiqbtQtMt4pRs8vC1uh.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #333;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(59, 58, 58, 0.3);
+  color: #fff;
+  text-align: center;
+}
+
+.display {
+  background-color: #222;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+.button {
+  border: 1px solid #444;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #555;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+  background-color: #777;
+}
+
+.equal {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.equal:hover {
+  background-color: #0056b3;
+}
